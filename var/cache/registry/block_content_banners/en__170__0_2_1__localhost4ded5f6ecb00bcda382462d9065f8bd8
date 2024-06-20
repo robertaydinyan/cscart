@@ -1,0 +1,47 @@
+a:2:{s:4:"data";a:2:{s:10:"javascript";s:764:"<script>
+(function(_, $) {
+    $.ceEvent('on', 'ce.commoninit', function(context) {
+        var slider = context.find('#banner_slider_20');
+        if (slider.length) {
+            slider.owlCarousel({
+                direction: 'ltr',
+                items: 1,
+                singleItem : true,
+                slideSpeed: 400,
+                autoPlay: 5000,
+                stopOnHover: true,
+                beforeInit: function () {
+                    $.ceEvent('trigger', 'ce.banner.carousel.beforeInit', [this]);
+                },
+                                                                    pagination: true,
+                    paginationNumbers: true
+                                            });
+        }
+    });
+}(Tygh, Tygh.$));
+</script>";s:7:"content";s:1841:"                        <div class="homepage-banners ">
+                    <div id="banner_slider_20" class="banners owl-carousel ty-scroller"
+        data-ca-scroller-item="1"
+        data-ca-scroller-item-desktop="1"
+        data-ca-scroller-item-desktop-small="1"
+        data-ca-scroller-item-tablet="1"
+        data-ca-scroller-item-mobile="1"
+    >
+                    <div class="ty-banner__image-item ty-scroller__item">
+                                    <a class="banner__link" href="http://localhost/index.php?dispatch=pages.view&amp;page_id=24" >                        <img class="ty-pict  ty-banner__image   cm-image" alt="" title="" id="det_img_3088483118" width="1200" height="500" src="http://localhost/images/promo/8/mve_o1aa-uz.jpg" />
+
+                    </a>                            </div>
+                    <div class="ty-banner__image-item ty-scroller__item">
+                                    <a class="banner__link" href="http://localhost/index.php?dispatch=pages.view&amp;page_id=25" >                        <img class="ty-pict  ty-banner__image   cm-image" alt="" title="" id="det_img_429769325" width="1200" height="500" src="http://localhost/images/promo/8/acme.jpg" />
+
+                    </a>                            </div>
+                    <div class="ty-banner__image-item ty-scroller__item">
+                                    <a class="banner__link" href="http://localhost/index.php?dispatch=pages.view&amp;page_id=27" >                        <img class="ty-pict  ty-banner__image   cm-image" alt="" title="" id="det_img_1055045725" width="1200" height="500" src="http://localhost/images/promo/8/bronze.jpg" />
+
+                    </a>                            </div>
+            </div>
+
+<!-- Inline script moved to the bottom of the page -->
+
+                    </div>
+            ";}s:6:"expiry";i:0;}

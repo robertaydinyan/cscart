@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: da\n"
+"X-Crowdin-File: /release-4.18.1/upgrade.po\n"
+"X-Crowdin-File-ID: 8376\n"
+"PO-Revision-Date: 2024-06-07 08:58\n"
+
+msgctxt "Languages::upgrade_notification.mobile_app.title"
+msgid "Mobile App: Configure Firebase to keep sending push notifications"
+msgstr ""
+
+msgctxt "Languages::upgrade_notification.mobile_app.message"
+msgid "Your mobile app uses Google's Firebase to send push notifications. Due to the changes on the Firebase end, you need to configure push notifications again: <ol><li><a href=\"https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk\" target=\"_blank\">Create a private key</a> for Firebase Admin SDK.</li><li>Put the content of the downloaded file into <a href=\"[url]\" target=\"_blank\">the settings of the Mobile App add-on.</a></li></ol>"
+msgstr ""
+

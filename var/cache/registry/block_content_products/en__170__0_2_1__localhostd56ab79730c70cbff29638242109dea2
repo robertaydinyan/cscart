@@ -1,0 +1,753 @@
+a:2:{s:4:"data";a:2:{s:10:"javascript";s:2447:"<script src="http://localhost/js/tygh/product_image_gallery.js?ver=1718830403" ></script><script>
+(function(_, $) {
+    $.ceEvent('on', 'ce.commoninit', function(context) {
+        var elm = context.find('#scroll_list_22_667347bcc30f3');
+
+        $('.ty-float-left:contains(.ty-scroller-list),.ty-float-right:contains(.ty-scroller-list)').css('width', '100%');
+
+        var item = 4,
+            // default setting of carousel
+            itemsDesktop = 4,
+            itemsDesktopSmall = 3,
+            itemsTablet = 2,
+            itemsMobile = 1;
+
+        if (item > 3) {
+            itemsDesktop = item;
+            itemsDesktopSmall = item - 1;
+            itemsTablet = item - 2;
+        } else if (item == 1) {
+            itemsDesktop = itemsDesktopSmall = itemsTablet = 1;
+        } else {
+            itemsDesktop = item;
+            itemsDesktopSmall = itemsTablet = item - 1;
+        }
+
+        var desktop = [1199, itemsDesktop],
+            desktopSmall = [979, itemsDesktopSmall],
+            tablet = [768, itemsTablet],
+            mobile = [479, itemsMobile];
+
+                function afterInit () {
+            $.ceEvent('trigger', 'ce.scroller.afterInit', [this]);
+        }
+        function afterUpdate () {
+            $.ceEvent('trigger', 'ce.scroller.afterUpdate', [this]);
+        }
+                function beforeInit () {
+            $.ceEvent('trigger', 'ce.scroller.beforeInit', [this]);
+        }
+        function beforeUpdate () {
+            $.ceEvent('trigger', 'ce.scroller.beforeUpdate', [this]);
+        }
+
+        if (elm.length) {
+            elm.owlCarousel({
+                direction: 'ltr',
+                items: item,
+                itemsDesktop: desktop,
+                itemsDesktopSmall: desktopSmall,
+                itemsTablet: tablet,
+                itemsMobile: mobile,
+                                scrollPerPage: true,
+                                                autoPlay: false,
+                                lazyLoad: true,
+                slideSpeed: 400,
+                stopOnHover: true,
+                                navigation: true,
+                navigationText: ['Prev', 'Next'],
+                                pagination: false,
+                beforeInit: beforeInit,
+                afterInit: afterInit,
+                beforeUpdate: beforeUpdate,
+                afterUpdate: afterUpdate
+            });
+            
+        }
+    });
+}(Tygh, Tygh.$));
+</script>";s:7:"content";s:25673:"        <div class="ty-mainbox-simple-container clearfix homepage-hotdeals">
+                    <h2 class="ty-mainbox-simple-title">
+                                                    Hot deals
+                                
+            </h2>
+                <div class="ty-mainbox-simple-body">
+        
+
+<!-- Inline script moved to the bottom of the page -->
+
+
+        
+<div id="scroll_list_22_667347bcc30f3" class="owl-carousel ty-scroller-list grid-list ty-scroller-advanced ty-scroller"
+    data-ca-scroller-item="4"
+    data-ca-scroller-item-desktop="4"
+    data-ca-scroller-item-desktop-small="3"
+    data-ca-scroller-item-tablet="2"
+    data-ca-scroller-item-mobile="1"
+>
+                    <div class="ty-scroller-list__item ty-scroller__item">
+                                                                        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left
+                ">
+                                        <form action="http://localhost/index.php" method="post" name="product_form_22000241" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[241][product_id]" value="241" />
+
+
+                    <div class="ty-grid-list__image">
+                                                                    
+            
+
+                        
+
+
+        <a href="http://localhost/index.php?dispatch=products.view&amp;product_id=241">
+                                    <img class="ty-pict     cm-image" alt="" title="" srcset="http://localhost/images/thumbnails/300/300/detailed/0/ipad-white-1.jpg 2x" id="det_img_22000241" width="150" height="150" src="http://localhost/images/thumbnails/150/150/detailed/0/ipad-white-1.jpg" />
+
+    </a>
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>            <a href="http://localhost/index.php?dispatch=products.view&amp;product_id=241" class="product-title" title="Apple® - iPad® with Retina® display Wi-Fi - 32GB - White" >Apple® - iPad® with Retina® display Wi-Fi...</a>    
+</bdi>
+                    </div>
+
+                                                                        <div class="ty-grid-list__price ">
+                                                                            <span class="cm-reload-22000241" id="old_price_update_22000241">
+                                    
+        <!--old_price_update_22000241--></span>
+    
+                                                                    <span class="cm-reload-22000241 ty-price-update" id="price_update_22000241">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                                                                                                        <span class="ty-price" id="line_discounted_price_22000241"><span class="ty-price-num">$</span><span id="sec_discounted_price_22000241" class="ty-price-num">499.00</span></span>
+                            
+                        <!--price_update_22000241--></span>
+
+
+                                                                    
+
+                                                                    
+                            </div>
+                        
+                    
+                                                                <div class="grid-list__rating">
+                                
+    
+                                
+                                
+            <a class="ty-product-review-reviews-stars__link "
+            href="http://localhost/index.php?dispatch=products.view&amp;product_id=241&amp;selected_section=product_reviews#product_reviews"
+            title="The product is rated 5 out of 5 stars. Show review rating."
+        >
+            <div class="ty-product-review-reviews-stars
+                        "
+            data-ca-product-review-reviews-stars-rating="5"
+            data-ca-product-review-reviews-stars-full="5"
+            data-ca-product-review-reviews-stars-is-half=""
+                    ></div>
+            </a>
+    
+
+    
+
+                        </div>
+                    
+                    
+
+                    
+                                                                    <input type="hidden" name="security_hash" class="cm-no-hide-input" value="6332a37cfe0f28b4542f08b08b7c567d" /></form>
+
+                    
+                </div>
+                        
+        </div>
+        
+                    <div class="ty-scroller-list__item ty-scroller__item">
+                                                                        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left
+                ">
+                                        <form action="http://localhost/index.php" method="post" name="product_form_22000244" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[244][product_id]" value="244" />
+
+
+                    <div class="ty-grid-list__image">
+                                                                    
+            
+
+                        
+
+
+        <a href="http://localhost/index.php?dispatch=products.view&amp;product_id=244">
+                                    <img class="ty-pict     cm-image" alt="" title="" srcset="http://localhost/images/thumbnails/300/300/detailed/1/pocket_bell.jpg 2x" id="det_img_22000244" width="150" height="150" src="http://localhost/images/thumbnails/150/150/detailed/1/pocket_bell.jpg" />
+
+    </a>
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>            <a href="http://localhost/index.php?dispatch=products.view&amp;product_id=244" class="product-title" title="Packard Bell OneTwo" >Packard Bell OneTwo</a>    
+</bdi>
+                    </div>
+
+                                                                        <div class="ty-grid-list__price ">
+                                                                            <span class="cm-reload-22000244" id="old_price_update_22000244">
+                                    
+        <!--old_price_update_22000244--></span>
+    
+                                                                    <span class="cm-reload-22000244 ty-price-update" id="price_update_22000244">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                                                                                                        <span class="ty-price" id="line_discounted_price_22000244"><span class="ty-price-num">$</span><span id="sec_discounted_price_22000244" class="ty-price-num">729.99</span></span>
+                            
+                        <!--price_update_22000244--></span>
+
+
+                                                                    
+
+                                                                    
+                            </div>
+                        
+                    
+                                                                <div class="grid-list__rating">
+                                
+    
+                                
+                                
+            <a class="ty-product-review-reviews-stars__link "
+            href="http://localhost/index.php?dispatch=products.view&amp;product_id=244&amp;selected_section=product_reviews#product_reviews"
+            title="The product is rated 4.3 out of 5 stars. Show review rating."
+        >
+            <div class="ty-product-review-reviews-stars
+                        "
+            data-ca-product-review-reviews-stars-rating="4"
+            data-ca-product-review-reviews-stars-full="4"
+            data-ca-product-review-reviews-stars-is-half="1"
+                    ></div>
+            </a>
+    
+
+    
+
+                        </div>
+                    
+                    
+
+                    
+                                                                    <input type="hidden" name="security_hash" class="cm-no-hide-input" value="6332a37cfe0f28b4542f08b08b7c567d" /></form>
+
+                    
+                </div>
+                        
+        </div>
+        
+                    <div class="ty-scroller-list__item ty-scroller__item">
+                                                                        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left
+                ">
+                                        <form action="http://localhost/index.php" method="post" name="product_form_22000245" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[245][product_id]" value="245" />
+
+
+                    <div class="ty-grid-list__image">
+                                                                    
+            
+
+                        
+
+
+        <a href="http://localhost/index.php?dispatch=products.view&amp;product_id=245">
+                                    <img class="ty-pict     cm-image" alt="" title="" srcset="http://localhost/images/thumbnails/300/300/detailed/1/iphone_green.png 2x" id="det_img_22000245" width="150" height="150" src="http://localhost/images/thumbnails/150/150/detailed/1/iphone_green.png" />
+
+    </a>
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>            <a href="http://localhost/index.php?dispatch=products.view&amp;product_id=245" class="product-title" title="Apple - iPhone 5c 32GB Cell Phone - Green" >Apple - iPhone 5c 32GB Cell Phone - Green</a>    
+</bdi>
+                    </div>
+
+                                                                        <div class="ty-grid-list__price ">
+                                                                            <span class="cm-reload-22000245" id="old_price_update_22000245">
+                                    
+        <!--old_price_update_22000245--></span>
+    
+                                                                    <span class="cm-reload-22000245 ty-price-update" id="price_update_22000245">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                                                                                                        <span class="ty-price" id="line_discounted_price_22000245"><span class="ty-price-num">$</span><span id="sec_discounted_price_22000245" class="ty-price-num">699.00</span></span>
+                            
+                        <!--price_update_22000245--></span>
+
+
+                                                                    
+
+                                                                    
+                            </div>
+                        
+                    
+                                                                <div class="grid-list__rating">
+                                
+    
+                                
+                                
+            <a class="ty-product-review-reviews-stars__link "
+            href="http://localhost/index.php?dispatch=products.view&amp;product_id=245&amp;selected_section=product_reviews#product_reviews"
+            title="The product is rated 4.7 out of 5 stars. Show review rating."
+        >
+            <div class="ty-product-review-reviews-stars
+                        "
+            data-ca-product-review-reviews-stars-rating="5"
+            data-ca-product-review-reviews-stars-full="4"
+            data-ca-product-review-reviews-stars-is-half="1"
+                    ></div>
+            </a>
+    
+
+    
+
+                        </div>
+                    
+                    
+
+                    
+                                                                    <input type="hidden" name="security_hash" class="cm-no-hide-input" value="6332a37cfe0f28b4542f08b08b7c567d" /></form>
+
+                    
+                </div>
+                        
+        </div>
+        
+                    <div class="ty-scroller-list__item ty-scroller__item">
+                                                                        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left
+                ">
+                                        <form action="http://localhost/index.php" method="post" name="product_form_22000246" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[246][product_id]" value="246" />
+
+
+                    <div class="ty-grid-list__image">
+                                                                    
+            
+
+                        
+
+
+        <a href="http://localhost/index.php?dispatch=products.view&amp;product_id=246">
+                                    <img class="ty-pict     cm-image" alt="" title="" srcset="http://localhost/images/thumbnails/300/300/detailed/1/go_pro.png 2x" id="det_img_22000246" width="150" height="150" src="http://localhost/images/thumbnails/150/150/detailed/1/go_pro.png" />
+
+    </a>
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>            <a href="http://localhost/index.php?dispatch=products.view&amp;product_id=246" class="product-title" title="GoPro - Hero3+ Black Edition Camera" >GoPro - Hero3+ Black Edition Camera</a>    
+</bdi>
+                    </div>
+
+                                                                        <div class="ty-grid-list__price ">
+                                                                            <span class="cm-reload-22000246" id="old_price_update_22000246">
+                                    
+        <!--old_price_update_22000246--></span>
+    
+                                                                    <span class="cm-reload-22000246 ty-price-update" id="price_update_22000246">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                                                                                                        <span class="ty-price" id="line_discounted_price_22000246"><span class="ty-price-num">$</span><span id="sec_discounted_price_22000246" class="ty-price-num">399.99</span></span>
+                            
+                        <!--price_update_22000246--></span>
+
+
+                                                                    
+
+                                                                    
+                            </div>
+                        
+                    
+                                                                <div class="grid-list__rating">
+                                
+    
+                                
+                                
+            <a class="ty-product-review-reviews-stars__link "
+            href="http://localhost/index.php?dispatch=products.view&amp;product_id=246&amp;selected_section=product_reviews#product_reviews"
+            title="The product is rated 5 out of 5 stars. Show review rating."
+        >
+            <div class="ty-product-review-reviews-stars
+                        "
+            data-ca-product-review-reviews-stars-rating="5"
+            data-ca-product-review-reviews-stars-full="5"
+            data-ca-product-review-reviews-stars-is-half=""
+                    ></div>
+            </a>
+    
+
+    
+
+                        </div>
+                    
+                    
+
+                    
+                                                                    <input type="hidden" name="security_hash" class="cm-no-hide-input" value="6332a37cfe0f28b4542f08b08b7c567d" /></form>
+
+                    
+                </div>
+                        
+        </div>
+        
+                    <div class="ty-scroller-list__item ty-scroller__item">
+                                                                        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left
+                ">
+                                        <form action="http://localhost/index.php" method="post" name="product_form_22000247" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[247][product_id]" value="247" />
+
+
+                    <div class="ty-grid-list__image">
+                                                                    
+            
+
+                        
+
+
+        <a href="http://localhost/index.php?dispatch=products.view&amp;product_id=247">
+                                    <img class="ty-pict     cm-image" alt="" title="" srcset="http://localhost/images/thumbnails/300/300/detailed/1/nokia_n1_perspectives_-_app.jpg 2x" id="det_img_22000247" width="150" height="150" src="http://localhost/images/thumbnails/150/150/detailed/1/nokia_n1_perspectives_-_app.jpg" />
+
+    </a>
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>            <a href="http://localhost/index.php?dispatch=products.view&amp;product_id=247" class="product-title" title="Nokia N1 Pad 7.9&quot; Quad-Core 64bit 2.3GHz 2GB 32GB Android 5.0" >Nokia N1 Pad 7.9" Quad-Core 64bit 2.3GHz ...</a>    
+</bdi>
+                    </div>
+
+                                                                        <div class="ty-grid-list__price ">
+                                                                            <span class="cm-reload-22000247" id="old_price_update_22000247">
+                                    
+        <!--old_price_update_22000247--></span>
+    
+                                                                    <span class="cm-reload-22000247 ty-price-update" id="price_update_22000247">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                                                                                                        <span class="ty-price" id="line_discounted_price_22000247"><span class="ty-price-num">$</span><span id="sec_discounted_price_22000247" class="ty-price-num">329.49</span></span>
+                            
+                        <!--price_update_22000247--></span>
+
+
+                                                                    
+
+                                                                    
+                            </div>
+                        
+                    
+                                                                <div class="grid-list__rating">
+                                
+    
+                                
+                                
+            <a class="ty-product-review-reviews-stars__link "
+            href="http://localhost/index.php?dispatch=products.view&amp;product_id=247&amp;selected_section=product_reviews#product_reviews"
+            title="The product is rated 2.7 out of 5 stars. Show review rating."
+        >
+            <div class="ty-product-review-reviews-stars
+                        "
+            data-ca-product-review-reviews-stars-rating="3"
+            data-ca-product-review-reviews-stars-full="2"
+            data-ca-product-review-reviews-stars-is-half="1"
+                    ></div>
+            </a>
+    
+
+    
+
+                        </div>
+                    
+                    
+
+                    
+                                                                    <input type="hidden" name="security_hash" class="cm-no-hide-input" value="6332a37cfe0f28b4542f08b08b7c567d" /></form>
+
+                    
+                </div>
+                        
+        </div>
+        
+                    <div class="ty-scroller-list__item ty-scroller__item">
+                                                                        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left
+                ">
+                                        <form action="http://localhost/index.php" method="post" name="product_form_22000248" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[248][product_id]" value="248" />
+
+
+                    <div class="ty-grid-list__image">
+                                                                    
+            
+
+                        
+
+
+        <a href="http://localhost/index.php?dispatch=products.view&amp;product_id=248">
+                                    <img class="ty-pict     cm-image" alt="" title="" srcset="http://localhost/images/thumbnails/300/300/detailed/1/i.jpg 2x" id="det_img_22000248" width="150" height="150" src="http://localhost/images/thumbnails/150/150/detailed/1/i.jpg" />
+
+    </a>
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>            <a href="http://localhost/index.php?dispatch=products.view&amp;product_id=248" class="product-title" title="X-Box One" >X-Box One</a>    
+</bdi>
+                    </div>
+
+                                                                        <div class="ty-grid-list__price ">
+                                                                            <span class="cm-reload-22000248" id="old_price_update_22000248">
+                                    
+        <!--old_price_update_22000248--></span>
+    
+                                                                    <span class="cm-reload-22000248 ty-price-update" id="price_update_22000248">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                                                                                                        <span class="ty-price" id="line_discounted_price_22000248"><span class="ty-price-num">$</span><span id="sec_discounted_price_22000248" class="ty-price-num">372.27</span></span>
+                            
+                        <!--price_update_22000248--></span>
+
+
+                                                                    
+
+                                                                    
+                            </div>
+                        
+                    
+                                                                <div class="grid-list__rating">
+                                
+    
+                                
+                                
+            <a class="ty-product-review-reviews-stars__link "
+            href="http://localhost/index.php?dispatch=products.view&amp;product_id=248&amp;selected_section=product_reviews#product_reviews"
+            title="The product is rated 4.3 out of 5 stars. Show review rating."
+        >
+            <div class="ty-product-review-reviews-stars
+                        "
+            data-ca-product-review-reviews-stars-rating="4"
+            data-ca-product-review-reviews-stars-full="4"
+            data-ca-product-review-reviews-stars-is-half="1"
+                    ></div>
+            </a>
+    
+
+    
+
+                        </div>
+                    
+                    
+
+                    
+                                                                    <input type="hidden" name="security_hash" class="cm-no-hide-input" value="6332a37cfe0f28b4542f08b08b7c567d" /></form>
+
+                    
+                </div>
+                        
+        </div>
+        
+    </div>
+
+<!-- Inline script moved to the bottom of the page -->
+</div>
+    </div>
+";}s:6:"expiry";i:0;}

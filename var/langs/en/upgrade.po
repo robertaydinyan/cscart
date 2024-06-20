@@ -1,0 +1,13 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Languages::upgrade_notification.mobile_app.title"
+msgid "Mobile App: Configure Firebase to keep sending push notifications"
+msgstr "Mobile App: Configure Firebase to keep sending push notifications"
+
+msgctxt "Languages::upgrade_notification.mobile_app.message"
+msgid "Your mobile app uses Google's Firebase to send push notifications. Due to the changes on the Firebase end, you need to configure push notifications again: <ol><li><a href=\"https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk\" target=\"_blank\">Create a private key</a> for Firebase Admin SDK.</li><li>Put the content of the downloaded file into <a href=\"[url]\" target=\"_blank\">the settings of the Mobile App add-on.</a></li></ol>"
+msgstr "Your mobile app uses Google's Firebase to send push notifications. Due to the changes on the Firebase end, you need to configure push notifications again: <ol><li><a href=\"https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk\" target=\"_blank\">Create a private key</a> for Firebase Admin SDK.</li><li>Put the content of the downloaded file into <a href=\"[url]\" target=\"_blank\">the settings of the Mobile App add-on.</a></li></ol>"

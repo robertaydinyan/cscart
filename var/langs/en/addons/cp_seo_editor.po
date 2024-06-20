@@ -1,0 +1,58 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_seo_editor"
+msgid "Cart-Power: SEO names editor"
+msgstr "Cart-Power: SEO names editor"
+
+msgctxt "Addons::description::cp_seo_editor"
+msgid "Allows the administrator to edit SEO names in the administrator area"
+msgstr "Allows the administrator to edit SEO names in the administrator area. Developed by <a href='http://cart-power.com'>Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_seo_editor::script_password"
+msgid "Script password"
+msgstr "Script password"
+
+msgctxt "SettingsOptions::cp_seo_editor::seo_editor_url"
+msgid "SEO editor URL"
+msgstr "SEO editor URL"
+
+msgctxt "SettingsOptions::cp_seo_editor::licensekey"
+msgid "License key"
+msgstr "License key"
+
+msgctxt "Languages::cp_your_license_is_not_valid"
+msgid "You should enter valid License Key. Please, contact us (sales@cart-power.com), if you face any issues."
+msgstr "You should enter valid License Key. Please, contact us (sales@cart-power.com), if you face any issues."
+
+msgctxt "Languages::cp_seo_editor_url"
+msgid "SEO editor script is available here: <a href='[http_location]'>[http_location]</a>"
+msgstr "SEO editor script is available here: <a target='_blank' href='[http_location]'>[http_location]</a>"
+
+msgctxt "Languages::cp_seo_names"
+msgid "SEO names"
+msgstr "SEO names"
+
+msgctxt "Languages::cp_object_id"
+msgid "Object ID"
+msgstr "Object ID"
+
+msgctxt "Languages::cp_path"
+msgid "Path"
+msgstr "Path"
+
+msgctxt "Languages::cp_lang_code"
+msgid "Lang code"
+msgstr "Lang code"
+
+msgctxt "Languages::cp_duplicate_entry"
+msgid "Duplicate entry '[key]' for key 'PRIMARY'"
+msgstr "Duplicate entry '[key]' for key 'PRIMARY'"
+
+msgctxt "Languages::cp_seo_inactive"
+msgid "SEO addon is disabled. Please enable it to use this functionality"
+msgstr "SEO addon is disabled. Please enable it to use this functionality"
+

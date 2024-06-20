@@ -1,0 +1,80 @@
+a:2:{s:4:"data";a:1:{s:7:"content";s:3765:"        <div class="ty-mainbox-simple-container clearfix ty-homepage-vendors">
+                    <h2 class="ty-mainbox-simple-title">
+                                                    Featured Vendors
+                                
+            </h2>
+                <div class="ty-mainbox-simple-body">
+
+    
+    
+
+    <div class="grid-list ty-grid-vendors">
+        <div class="ty-column5">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="ty-grid-list__item"><div class="ty-grid-list__company-logo">            <a class="ty-company-image-wrapper" href="http://localhost/index.php?dispatch=companies.products&amp;company_id=2">                                        <img class="ty-pict  ty-company-image   cm-image" alt="" title="" srcset="http://localhost/images/thumbnails/240/78/logos/1/cart_2.png 2x" id="det_img_2" width="120" height="39" src="http://localhost/images/thumbnails/120/39/logos/1/cart_2.png" />
+
+        </a>    </div><div class="ty-grid-list__item-location"><a href="http://localhost/index.php?dispatch=companies.products&amp;company_id=2" class="company-location"><bdi>            Boston, US
+    </bdi></a></div><div class="grid-list__rating">        
+</div><div class="ty-grid-list__group"><div class="ty-grid-list__vendor_rating">        
+        <span class="ty-vendor-rating">
+            </span>
+</div><div class="ty-grid-list__total-products">            <a href="http://localhost/index.php?dispatch=companies.products&amp;company_id=2" class="ty-company-total-products">2  Product(s)</a>    </div></div>
+</div></div><div class="ty-column5">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="ty-grid-list__item"><div class="ty-grid-list__company-logo">            <a class="ty-company-image-wrapper" href="http://localhost/index.php?dispatch=companies.products&amp;company_id=1">                                        <img class="ty-pict  ty-company-image   cm-image" alt="" title="" srcset="http://localhost/images/thumbnails/240/36/logos/1/cart_1.png 2x" id="det_img_1" width="120" height="18" src="http://localhost/images/thumbnails/120/18/logos/1/cart_1.png" />
+
+        </a>    </div><div class="ty-grid-list__item-location"><a href="http://localhost/index.php?dispatch=companies.products&amp;company_id=1" class="company-location"><bdi>            Boston, US
+    </bdi></a></div><div class="grid-list__rating">        
+</div><div class="ty-grid-list__group"><div class="ty-grid-list__vendor_rating">        
+        <span class="ty-vendor-rating">
+            </span>
+</div><div class="ty-grid-list__total-products">            <a href="http://localhost/index.php?dispatch=companies.products&amp;company_id=1" class="ty-company-total-products">241  Product(s)</a>    </div></div>
+</div></div><div class="ty-column5">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="ty-grid-list__item"><div class="ty-grid-list__company-logo">            <a class="ty-company-image-wrapper" href="http://localhost/index.php?dispatch=companies.products&amp;company_id=3">                                        <img class="ty-pict  ty-company-image   cm-image" alt="test" title="test" srcset="http://localhost/images/thumbnails/240/38/logos/8/cart_awza-s1.png 2x" id="det_img_3" width="120" height="19" src="http://localhost/images/thumbnails/120/19/logos/8/cart_awza-s1.png" />
+
+        </a>    </div><div class="grid-list__rating">        
+</div><div class="ty-grid-list__group"><div class="ty-grid-list__vendor_rating">        
+        <span class="ty-vendor-rating">
+            </span>
+</div><div class="ty-grid-list__total-products">            <a href="http://localhost/index.php?dispatch=companies.products&amp;company_id=3" class="ty-company-total-products">0  Product(s)</a>    </div></div>
+</div></div><div class="ty-column5"></div><div class="ty-column5"></div>    </div>
+</div>
+    </div>
+";}s:6:"expiry";i:0;}

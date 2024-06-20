@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>trackfree</id>
+    <version>1.9</version>
+    <priority>1800</priority>
+	<status>active</status>
+	<settings>
+		<sections>
+            <section id="general">
+                <items>
+                    <item id="tf_info">
+                        <type>info</type>
+                        <handler>fn_get_trackfree_tracking_info</handler>
+                    </item>
+                    <item id="tf_open_dashboard">
+                        <type>template</type>
+                        <default_value>dashboard_btn.tpl</default_value>
+                    </item>
+                    <item id="display_options">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="progress_bar_color">
+                        <type>input</type>
+                        <default_value>#017501</default_value>
+                        <variants/>
+                    </item>
+                    <item id="look_up_options">
+                        <type>multiple checkboxes</type>
+                        <default_value><![CDATA[#M#by_order_num=Y&by_track_num=Y]]></default_value>
+                        <variants>
+                                <item id="by_order_num">
+                                </item>
+                                <item id="by_track_num">
+                                </item>
+                        </variants>
+                    </item>
+                    <item id="show_carrier">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="show_tracking_number">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="show_tracking_details">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="show_tracking_map">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="show_recommend_products">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="date_time_format">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="date_format">
+                        <type>selectbox</type>
+                        <default_value>date_format_1</default_value>
+                        <variants>
+                            <item id="date_format_1">
+                                <name>Jun 28, 2022</name>
+                            </item>
+                            <item id="date_format_2">
+                                <name>Jun 28</name>
+                            </item>
+                            <item id="date_format_2">
+                                <name>Jun 28th, 2022</name>
+                            </item>
+                            <item id="date_format_4">
+                                <name>Jun 28th, 2022</name>
+                            </item>
+                            <item id="date_format_4">
+                                <name>28 Jun 2022</name>
+                            </item>
+                            <item id="date_format_5">
+                                <name>28-Jun-2022</name>
+                            </item>
+                            <item id="date_format_6">
+                                <name>06/28/2022 (m/d/yyyy)</name>
+                            </item>
+                            <item id="date_format_7">
+                                <name>28/06/2022 (d/m/yyyy)</name>
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="time_format">
+                        <type>selectbox</type>
+                        <default_value>time_format_1</default_value>
+                        <variants>
+                            <item id="time_format_1">
+                                <name>08:20 pm</name>
+                            </item>
+                            <item id="time_format_2">
+                                <name>24-hour time</name>
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="trans_str">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="tracking_number">
+                        <type>input</type>
+                        <default_value>Tracking Number</default_value>
+                    </item>
+                    <item id="ordered">
+                        <type>input</type>
+                        <default_value>Ordered</default_value>
+                    </item>
+                    <item id="order_ready">
+                        <type>input</type>
+                        <default_value>Order Ready</default_value>
+                    </item>
+                    <item id="in_transit">
+                        <type>input</type>
+                        <default_value>In Transit</default_value>
+                    </item>
+                    <item id="out_for_delivery">
+                        <type>input</type>
+                        <default_value>Out for Delivery</default_value>
+                    </item>
+                    <item id="delivered">
+                        <type>input</type>
+                        <default_value>Delivered</default_value>
+                    </item>
+                    <item id="status">
+                        <type>input</type>
+                        <default_value>Status</default_value>
+                    </item>
+                    <item id="delivery_date">
+                        <type>input</type>
+                        <default_value>Delivery Date</default_value>
+                    </item>
+                    <item id="carrier">
+                        <type>input</type>
+                        <default_value>Carrier</default_value>
+                    </item>
+                    <item id="estimated_delivery_date">
+                        <type>input</type>
+                        <default_value>Estimated Delivery Date</default_value>
+                    </item>
+                    <item id="may_like">
+                        <type>input</type>
+                        <default_value>You may also like...</default_value>
+                    </item>
+                    <item id="info_received">
+                        <type>input</type>
+                        <default_value>Info Received</default_value>
+                    </item>
+                    <item id="exception">
+                        <type>input</type>
+                        <default_value>Exception</default_value>
+                    </item>
+                    <item id="failed_attempt">
+                        <type>input</type>
+                        <default_value>Failed Attempt</default_value>
+                    </item>
+                    <item id="expired">
+                        <type>input</type>
+                        <default_value>Expired</default_value>
+                    </item>
+                    <item id="order_not_found">
+                        <type>input</type>
+                        <default_value>Order Not Found</default_value>
+                    </item>
+                    <item id="advance_settings">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="trackfree_status_map_settings">
+                        <type>template</type>
+                        <default_value>statuses_map.tpl</default_value>
+                    </item>
+                    <item id="trackfree_auto_order_status">
+                        <type>hidden</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="trackfree_email">
+                        <type>hidden</type>
+                        <default_value/>
+                    </item>
+                    <item id="trackfree_api_key">
+                        <type>hidden</type>
+                        <default_value/>
+                    </item>
+                    <item id="tf_statuses">
+                        <type>hidden</type>
+                        <default_value>a:7:{s:13:"info_received";a:4:{s:6:"status";s:0:"";s:15:"notify_customer";s:1:"N";s:17:"notify_department";s:1:"N";s:13:"notify_vendor";s:1:"N";}s:10:"in_transit";a:4:{s:6:"status";s:0:"";s:15:"notify_customer";s:1:"N";s:17:"notify_department";s:1:"N";s:13:"notify_vendor";s:1:"N";}s:16:"out_for_delivery";a:4:{s:6:"status";s:0:"";s:15:"notify_customer";s:1:"N";s:17:"notify_department";s:1:"N";s:13:"notify_vendor";s:1:"N";}s:9:"delivered";a:4:{s:6:"status";s:0:"";s:15:"notify_customer";s:1:"N";s:17:"notify_department";s:1:"N";s:13:"notify_vendor";s:1:"N";}s:9:"exception";a:4:{s:6:"status";s:0:"";s:15:"notify_customer";s:1:"N";s:17:"notify_department";s:1:"N";s:13:"notify_vendor";s:1:"N";}s:14:"failed_attempt";a:4:{s:6:"status";s:0:"";s:15:"notify_customer";s:1:"N";s:17:"notify_department";s:1:"N";s:13:"notify_vendor";s:1:"N";}s:7:"expired";a:4:{s:6:"status";s:0:"";s:15:"notify_customer";s:1:"N";s:17:"notify_department";s:1:"N";s:13:"notify_vendor";s:1:"N";}}</default_value>
+                    </item>
+                    <item id="tf_open_dashboard">
+                        <type>template</type>
+                        <default_value>footer.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+	</settings>
+    <functions>
+        <item for="install">fn_trackfree_install</item>
+        <item for="uninstall">fn_trackfree_uninstall</item>
+    </functions>
+<marketplace_product_id>3462</marketplace_product_id><marketplace_license_number>MP-0736-EO1X-1WAU-VG76</marketplace_license_number></addon>

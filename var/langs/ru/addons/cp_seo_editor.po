@@ -1,0 +1,58 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_seo_editor"
+msgid "Cart-Power: SEO names editor"
+msgstr "Cart-Power: Редактор SEO имен"
+
+msgctxt "Addons::description::cp_seo_editor"
+msgid "Allows the administrator to edit SEO names in the administrator area"
+msgstr "Добавляет возможность редактирования таблицы SEO-имен в панели администрирования. Разработан <a href='http://cart-power.ru'>Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_seo_editor::script_password"
+msgid "Script password"
+msgstr "Пароль для запуска скрипта"
+
+msgctxt "SettingsOptions::cp_seo_editor::seo_editor_url"
+msgid "SEO editor URL"
+msgstr "Путь к странице редактирования SEO имен"
+
+msgctxt "SettingsOptions::cp_seo_editor::licensekey"
+msgid "License key"
+msgstr "Лицензионный ключ"
+
+msgctxt "Languages::cp_your_license_is_not_valid"
+msgid "You should enter valid License Key. Please, contact us (sales@cart-power.com), if you face any issues."
+msgstr "Введите лицензионный ключ для активации модуля. Если у вас возникли проблемы, напишите нам sales@cart-power.com"
+
+msgctxt "Languages::cp_seo_editor_url"
+msgid "SEO editor script is available here: <a href='[http_location]'>[http_location]</a>"
+msgstr "Страница редактирования SEO-имен здесь: <a target='_blank' href='[http_location]'>[http_location]</a>"
+
+msgctxt "Languages::cp_seo_names"
+msgid "SEO names"
+msgstr "SEO имена"
+
+msgctxt "Languages::cp_object_id"
+msgid "Object ID"
+msgstr "ID объекта"
+
+msgctxt "Languages::cp_path"
+msgid "Path"
+msgstr "Путь"
+
+msgctxt "Languages::cp_lang_code"
+msgid "Lang code"
+msgstr "Язык"
+
+msgctxt "Languages::cp_duplicate_entry"
+msgid "Duplicate entry '[key]' for key 'PRIMARY'"
+msgstr "Дублирование информации для '[key]' в разделе 'PRIMARY'"
+
+msgctxt "Languages::cp_seo_inactive"
+msgid "SEO addon is disabled. Please enable it to use this functionality"
+msgstr "Модуль SEO не активен. Пожалуйста, активируйте его, чтобы получиться доступ к этой функциональности"
+

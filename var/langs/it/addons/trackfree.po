@@ -1,0 +1,304 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: /release-4.14.3/addons/trackfree.po\n"
+"PO-Revision-Date: 2022-04-13 14:58\n"
+
+msgctxt "Addons::name::trackfree"
+msgid "TrackFree"
+msgstr "TrackFree"
+
+msgctxt "Addons::description::trackfree"
+msgid "Delight your customers with exceptional post-purchase experience and drive more sales. This addon lets you track all shipments and notify customers of delivery updates."
+msgstr "Delizia i tuoi clienti con un'esperienza post-acquisto eccezionale e aumenta le vendite. Questo componente aggiuntivo ti consente di tracciare tutte le spedizioni e notificare ai clienti gli aggiornamenti di consegna."
+
+msgctxt "SettingsOptions::trackfree::display_options"
+msgid "Display options"
+msgstr "Opzioni di visualizzazione"
+
+msgctxt "SettingsOptions::trackfree::progress_bar_color"
+msgid "Progress bar color"
+msgstr "Colore della barra di avanzamento"
+
+msgctxt "SettingsOptions::trackfree::look_up_options"
+msgid "Look up options"
+msgstr "Cerca le opzioni"
+
+msgctxt "SettingsVariants::trackfree::look_up_options::by_order_num"
+msgid "By order number and email"
+msgstr "Per numero d'ordine ed e-mail"
+
+msgctxt "SettingsVariants::trackfree::look_up_options::by_track_num"
+msgid "By tracking number"
+msgstr "Per numero di tracciamento"
+
+msgctxt "SettingsOptions::trackfree::show_carrier"
+msgid "Show the carrier's name and logo on your tracking page"
+msgstr "Mostra il nome e il logo del corriere sulla tua pagina di monitoraggio"
+
+msgctxt "SettingsOptions::trackfree::show_tracking_number"
+msgid "Show tracking number on your tracking page"
+msgstr "Mostra il numero di tracciamento sulla tua pagina di tracciamento"
+
+msgctxt "SettingsOptions::trackfree::show_tracking_details"
+msgid "Show tracking details on your tracking page"
+msgstr "Mostra i dettagli di monitoraggio sulla tua pagina di monitoraggio"
+
+msgctxt "SettingsOptions::trackfree::show_recommend_products"
+msgid "Recommended products will be shown to customers based on their order items"
+msgstr "I prodotti consigliati verranno mostrati ai clienti in base ai loro articoli ordinati"
+
+msgctxt "SettingsOptions::trackfree::date_time_format"
+msgid "Date and time format"
+msgstr "Formato data e ora"
+
+msgctxt "SettingsOptions::trackfree::date_format"
+msgid "Date format"
+msgstr "Formato data"
+
+msgctxt "SettingsOptions::trackfree::time_format"
+msgid "Time format"
+msgstr "Formato orario"
+
+msgctxt "SettingsOptions::trackfree::trans_str"
+msgid "Translation strings"
+msgstr "Stringhe di traduzione"
+
+msgctxt "SettingsOptions::trackfree::tracking_number"
+msgid "tracking_number"
+msgstr "tracking_number"
+
+msgctxt "SettingsOptions::trackfree::ordered"
+msgid "ordered"
+msgstr "ordered"
+
+msgctxt "SettingsOptions::trackfree::order_ready"
+msgid "order_ready"
+msgstr "order_ready"
+
+msgctxt "SettingsOptions::trackfree::in_transit"
+msgid "in_transit"
+msgstr "in_transit"
+
+msgctxt "SettingsOptions::trackfree::out_for_delivery"
+msgid "out_for_delivery"
+msgstr "out_for_delivery"
+
+msgctxt "SettingsOptions::trackfree::delivered"
+msgid "delivered"
+msgstr "delivered"
+
+msgctxt "SettingsOptions::trackfree::status"
+msgid "status"
+msgstr "status"
+
+msgctxt "SettingsOptions::trackfree::delivery_date"
+msgid "delivery_date"
+msgstr "delivery_date"
+
+msgctxt "SettingsOptions::trackfree::carrier"
+msgid "carrier"
+msgstr "carrier"
+
+msgctxt "SettingsOptions::trackfree::estimated_delivery_date"
+msgid "estimated_delivery_date"
+msgstr "estimated_delivery_date"
+
+msgctxt "SettingsOptions::trackfree::may_like"
+msgid "may_like"
+msgstr "may_like"
+
+msgctxt "SettingsOptions::trackfree::info_received"
+msgid "info_received"
+msgstr "info_received"
+
+msgctxt "SettingsOptions::trackfree::exception"
+msgid "exception"
+msgstr "exception"
+
+msgctxt "SettingsOptions::trackfree::failed_attempt"
+msgid "failed_attempt"
+msgstr "failed_attempt"
+
+msgctxt "SettingsOptions::trackfree::expired"
+msgid "expired"
+msgstr "expired"
+
+msgctxt "SettingsOptions::trackfree::order_not_found"
+msgid "order_not_found"
+msgstr "order_not_found"
+
+msgctxt "Languages::track_your_order"
+msgid "Track Your Order"
+msgstr "Rintraccia il tuo ordine"
+
+msgctxt "Languages::tracking_number"
+msgid "Tracking Number"
+msgstr "Numero di identificazione"
+
+msgctxt "Languages::order_number"
+msgid "Order Number"
+msgstr "Numero d'ordine"
+
+msgctxt "Languages::email"
+msgid "Email"
+msgstr "E-mail"
+
+msgctxt "Languages::track"
+msgid "Track"
+msgstr "Ordine dei brani"
+
+msgctxt "Languages::trackfree_tracking_info"
+msgid "Your branded tracking page is ready. Here is the <a href=\"\index.php?dispatch=track.track\" target="\blank\">URL</a> so that customers can track their orders.<br /><br /><a href=\"\index.php?dispatch=track.track&nums=9405516901479381873433&preview=trackfree\" target="\blank\">Preview tracking page</a>"
+msgstr "La tua pagina di monitoraggio del marchio è pronta. Ecco l'<a href=\"\index.php?dispatch=track.track\" target="\blank\">URL</a> in modo che i clienti possano monitorare i loro ordini.<br /><br /><a href=\"\index.php?dispatch=track.track&nums=9405516901479381873433&preview=trackfree\" target="\blank\">Anteprima della pagina di monitoraggio</a>"
+
+msgctxt "Languages::open_dashboard_btn"
+msgid "Open TrackFree Dashboard"
+msgstr "Apri il dashboard di TrackFree"
+
+msgctxt "Languages::open_dashboard_cnt"
+msgid "(For dashboard, advance settings, theme & email template editor, marketing and more.)"
+msgstr "(Per dashboard, impostazioni avanzate, temi e editor di modelli di email, marketing e altro.)"
+
+msgctxt "Languages::trackfree_delivery_tracker"
+msgid "TrackFree - Delivery Tracker"
+msgstr "TrackFree - Delivery Tracker"
+
+msgctxt "Languages::status"
+msgid "STATUS"
+msgstr "STATO"
+
+msgctxt "Languages::feedback"
+msgid "FEEDBACK"
+msgstr "RISPOSTA"
+
+msgctxt "Languages::satisfied"
+msgid "Satisfied"
+msgstr "Soddisfatto"
+
+msgctxt "Languages::not_satisfied"
+msgid "Not satisfied"
+msgstr "Non soddisfatto"
+
+msgctxt "Languages::delivered_on"
+msgid "Delivered on"
+msgstr "Consegnato"
+
+msgctxt "Languages::estimated_delivery_on"
+msgid "Estimated delivery on"
+msgstr "Consegna stimata il"
+
+msgctxt "Languages::shipping_activity"
+msgid "Shipping Activity"
+msgstr "Attività di spedizione"
+
+msgctxt "Languages::see_all_shipping_activity"
+msgid "See all shipping activity"
+msgstr "Vedi tutte le attività di spedizione"
+
+msgctxt "Languages::hide_all_shipping_activity"
+msgid "Hide all shipping activity"
+msgstr "Nascondi tutte le attività di spedizione"
+
+msgctxt "Languages::manage_trackfree_settings"
+msgid "Manage TrackFree Settings"
+msgstr "Gestisci le impostazioni di TrackFree"
+
+msgctxt "Languages::get_email_support"
+msgid "Get Email Support"
+msgstr "Ottieni supporto e-mail"
+
+msgctxt "Languages::email_support_desc"
+msgid "Send us an email, and we will respond as soon as possible."
+msgstr "Inviaci una e-mail, ti risponderemo il prima possibile."
+
+msgctxt "Languages::trackfree_help_docs"
+msgid "TrackFree Help Docs"
+msgstr "Documenti di aiuto di TrackFree"
+
+msgctxt "Languages::help_docs_desc"
+msgid "Find a solution for your problem with TrackFree documents and tutorials."
+msgstr "Trova una soluzione per il tuo problema con i documenti e i tutorial TrackFree."
+
+msgctxt "SettingsOptions::trackfree::show_tracking_map"
+msgid "Show map on your tracking page when the address is recognized correctly"
+msgstr "Mostra la mappa sulla tua pagina di monitoraggio quando l'indirizzo è riconosciuto correttamente"
+
+msgctxt "SettingsOptions::trackfree::advance_settings"
+msgid "Advance settings"
+msgstr "Impostazioni avanzate"
+
+msgctxt "Languages::auto_order_status"
+msgid "Enable auto order status update"
+msgstr "Abilita l'aggiornamento automatico dello stato dell'ordine"
+
+msgctxt "Languages::email"
+msgid "Email"
+msgstr "E-mail"
+
+msgctxt "Languages::api_key"
+msgid "API Key"
+msgstr "Chiave dell'API"
+
+msgctxt "Languages::trackfree_order_status_update_info"
+msgid "Go to <a href=\"https://help.trackfree.io/en/articles/6904540-cs-cart-auto-order-status-update\" target="\blank\">TrackFree Support</a> to learn more | Get Email and API key from <a href=\"\?dispatch=profiles.manage&user_type=A\" target="\blank\">here</a>."
+msgstr "Vai a <a href=\"https://help.trackfree.io/en/articles/6904540-cs-cart-auto-order-status-update\" target="\blank\">TrackFree Support</a> per ulteriori informazioni | Ottieni la tua email e la chiave API <a href=\"\?dispatch=profiles.manage&user_type=A\" target="\blank\">da qui</a>."
+
+msgctxt "Languages::select_delivery_status"
+msgid "Choose your preferred statuses for Delivery Status"
+msgstr "Scegli i tuoi stati preferiti per lo stato di consegna"
+
+msgctxt "Languages::info_received"
+msgid "Info Received"
+msgstr "Informazioni ricevute"
+
+msgctxt "Languages::in_transit"
+msgid "In Transit"
+msgstr "In transito"
+
+msgctxt "Languages::out_for_delivery"
+msgid "Out For Delivery"
+msgstr "In consegna"
+
+msgctxt "Languages::delivered"
+msgid "Delivered"
+msgstr "Consegnato"
+
+msgctxt "Languages::exception"
+msgid "Exception"
+msgstr "Eccezione"
+
+msgctxt "Languages::failed_attempt"
+msgid "Failed Attempt"
+msgstr "Tentativo fallito"
+
+msgctxt "Languages::expired"
+msgid "Expired"
+msgstr "Scaduto"
+
+msgctxt "Languages::select_status"
+msgid "Select status"
+msgstr "Seleziona stato"
+
+msgctxt "Languages::set_notifications"
+msgid "Set notifications"
+msgstr "Imposta le notifiche"
+
+msgctxt "Languages::notify_customer"
+msgid "Notify customer"
+msgstr "Avvisa cliente"
+
+msgctxt "Languages::notify_department"
+msgid "Notify order department"
+msgstr "Avvisare dipartimento degli ordini"
+
+msgctxt "Languages::notify_vendor"
+msgid "Notify vendor"
+msgstr "Avvisare venditore"

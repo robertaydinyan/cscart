@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
+    <id>myfatoorah</id>
+    <supplier>MyFatoorah</supplier>
+    <supplier_link>https://www.myfatoorah.com/</supplier_link>
+    <version>2.0</version>
+    <priority>100500</priority>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="testMode">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="apiKey">
+                        <type>textarea</type>
+                    </item>
+                    <!-- <item id="listOptions">
+                        <type>selectbox</type>
+                        <default_value>myfatoorah</default_value>
+                        <variants>
+                            <item id="myfatoorah">
+                                <name>Myfatoorah Invoice Page (Redirect)</name>
+                            </item>
+                            <item id="multigateways">
+                                <name>List All Enabled Gateways in Checkout Page</name>
+                            </item>
+                        </variants>
+                    </item>-->
+                    <item id="orderStatus">
+                        <type>selectbox</type>
+                        <default_value>P</default_value>
+                        <variants>
+                            <item id="P"><name>Paid</name></item>
+                            <item id="C"><name>Complete</name></item>
+                        </variants>
+                    </item>
+                    <item id="debugMode">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item type="file">database/data.sql</item>
+    </queries>
+    <functions>
+        <item for="uninstall">fn_myfatoorah_delete_payment_processors</item>
+    </functions>
+<marketplace_product_id>3123</marketplace_product_id><marketplace_license_number>MP-6T8D-K84B-5EXM-5Q2R</marketplace_license_number></addon>

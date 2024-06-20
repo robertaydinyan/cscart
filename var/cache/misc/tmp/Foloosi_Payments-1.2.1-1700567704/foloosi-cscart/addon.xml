@@ -1,0 +1,34 @@
+<?xml version="1.1"?>
+<!--
+    Add-on scheme version 3.0 description
+    All parameters that are not marked as optional must be defined in the scheme.
+    @edition_type - an optional attribute available for any element related to settings. This attribute defines editions where a setting is available. If this attribute is left empty, the value of the parent element will be used. If that value is not set either, then the value is considered ROOT.
+-->
+<addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
+    <id>Foloosi Payments</id>
+    <version>1.2.1</version>
+    <default_language>en</default_language>
+    <priority>100</priority>
+    <status>active</status>
+    <auto_install>MULTIVENDOR</auto_install>
+    <compatibility>
+        <core_version>
+            <min>3.0.6</min>
+            <max>4.15.1</max>
+        </core_version>
+        <core_edition>MULTIVENDOR</core_edition>
+        <php_version>
+            <min>5.3</min>
+        </php_version>
+        <php_extensions>
+            <curl>
+                <supported>Y</supported>
+            </curl>
+            <json>
+                <min>1.0</min>
+                <max>2.0</max>
+            </json>
+        </php_extensions>
+        <dependencies>payment, payment gateway, credit card payment, accept online payments, etc..</dependencies>
+    </compatibility>
+<marketplace_product_id>2947</marketplace_product_id><marketplace_license_number>MP-YZ1C-J0Z0-1MUQ-504F</marketplace_license_number></addon>

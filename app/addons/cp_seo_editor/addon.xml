@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_seo_editor</id>
+    <version>1.0</version>
+    <priority>2800</priority>
+    <position>100</position>
+    <dependencies/>
+    <default_language>en</default_language>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>http://cart-power.com</supplier_link>
+    <compatibility>
+        <dependencies>seo</dependencies>
+    </compatibility>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="licensekey">
+                        <name>License Key</name>
+                        <type>input</type>
+                    </item>   
+                    <item id="script_password">
+                        <type>input</type>
+                        <default_value>password</default_value>
+                    </item>
+                    <item id="seo_editor_url">
+                        <type>info</type>
+                        <handler>fn_cp_seo_editor_url_info</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+<marketplace_product_id>1673</marketplace_product_id><marketplace_license_number>CP-MP-9Z60-97P1-6Y9J-R19O</marketplace_license_number></addon>
